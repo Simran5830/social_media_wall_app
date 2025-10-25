@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847993627027",
+    "project_id": "wall-92757",
+    "storage_bucket": "wall-92757.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847993627027:android:7d838cc214831c694f0866",
+        "android_client_info": {
+          "package_name": "com.example.flutter_wall"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdxMg4kLTNvMunBko3DCZ3JiO_z9ogUr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
