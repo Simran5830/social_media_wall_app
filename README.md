@@ -1,16 +1,29 @@
-# flutter_wall
+- Flutter Social Wall App
 
-A new Flutter project.
+A real-time social wall application built using Flutter and Firebase, where users can post messages, like posts, and manage their profiles seamlessly. The app features a clean UI, efficient state management, and live data synchronization using Firebase services.
 
-## Getting Started
+-Features
 
-This project is a starting point for a Flutter application.
+User Authentication — Secure sign-up & login using Firebase Auth (email/password).
 
-A few resources to get you started if this is your first Flutter project:
+Post System — Users can create, edit, and delete posts.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Like Functionality — Real-time like/unlike system with instant UI feedback using Firestore’s arrayUnion and arrayRemove.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User Profiles — Personalized profile section with usernames and bios stored in Firestore.
+
+Dark/Light Mode — Theme switching with Provider state management.
+
+Real-time Sync — Live updates using StreamBuilder and Cloud Firestore streams.
+
+-Tech Stack
+
+Frontend: Flutter
+
+Backend: Firebase
+
+Database: Cloud Firestore
+
+Authentication: Firebase Auth
+
+State Management: Provider
